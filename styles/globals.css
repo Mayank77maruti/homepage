@@ -1,0 +1,45 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+
+/* Set Global Background and Text Color */
+body {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1); /* Light background for track */
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5); /* Darker scrollbar thumb */
+    border-radius: 100px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit; /* Inherit text color for links */
+}
+
+/* Slick Carousel Track */
+.slick-track {
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* Additional Components */
+h1, h2, h3, h4, h5, h6, p {
+    color: #000000; /* Ensure all headings and paragraphs use black text */
+}
+
