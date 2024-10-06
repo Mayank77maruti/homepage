@@ -5,7 +5,7 @@
 /* Set Global Background and Text Color */
 body {
     background-color: #ffffff; /* White background */
-    color: #000000; /* Black text */
+    color: #ffffff; /* Black text */
     font-family: 'Poppins', sans-serif; /* Use Poppins font */
     margin: 0;
     padding: 0;
